@@ -24,5 +24,5 @@ var response = await client.path("chat/completions").post({
   },
 });
 
-// 👇 ONLY THIS LINE CHANGED
+
 console.log((await response.body).choices[0].message.content);
