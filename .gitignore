@@ -14,3 +14,7 @@ packages/**/build/
 # Don't ignore actual source code
 !packages/webapp/**
 !packages/webapi/**
+
+genaiscript.d.ts
+tsconfig.json
+jsconfig.json
